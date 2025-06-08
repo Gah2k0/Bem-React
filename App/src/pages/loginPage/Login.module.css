@@ -1,0 +1,163 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../../public/assets/font/Inter/static/Inter-Regular.ttf);
+}
+
+.body {
+    background: #fafafa;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+}
+
+.fundo {
+    display: grid;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 22vw;
+    height: 70vh;
+    padding: 20px 100px;
+    padding-bottom: 100px;
+    background-color: #FFFFFF;
+    grid-template-columns: auto auto 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 70%;
+}
+
+.texto-login {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.logo, .texto-login, .username, .password, .login{
+    grid-column: span 3;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.input-login {
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    color: black;
+}
+
+.input-login:hover {
+    outline: 2px solid rgb(250, 103, 19);
+    transition: .25s;
+}
+
+.input-login:focus {
+    outline: 2px solid rgb(250, 103, 19);
+}
+
+small {
+    grid-column: span 3;
+    display: none;
+}
+
+.erro {
+    display: table-column;
+    color: red;
+    font-size: small;
+}
+
+.input-erro {
+    outline: red;
+    border: 1px solid red;
+}
+
+.juntos {
+    align-self:center;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.wrap-lembrar {
+    display: flex;
+}
+
+/* CHECK BOX */
+.toggle {
+    display: none;
+}
+
+.toggle + label {
+    width: 32px;
+    height: 15px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(156, 156, 156);
+    display: block;
+    position: relative;
+    border-radius: 20px;
+    padding: 2px;
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.toggle + label::before {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: rgb(156, 156, 156);
+    display: block;
+    border-radius: 50%;
+    right: unset;
+    left: 2px;
+    top: 2px;
+    transition: 200ms;
+}
+
+.toggle:checked + label {
+    background: #5589f7;
+}
+
+.toggle:checked + label::before {
+    content: '';
+    left: calc(100% - 18px);
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgb(0 0 0 / 10%);
+}
+
+
+.lembrar {
+    margin: 10px ;
+    align-self:center;
+    justify-self: center;
+    font-size: .7rem;
+    cursor: pointer;
+}
+
+.esqueci-senha {
+    justify-self: end;
+    grid-column: span 2;
+    color: rgb(250, 103, 19);
+    text-decoration: none;
+}
+
+.login {
+    color: #FFFFFF;
+    background-color: hsl(22deg 100% 44%);
+    border: 1px solid hsl(22deg 100% 44%);
+    cursor: pointer;
+    padding: 15px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.seta {
+    width: 10px;
+}

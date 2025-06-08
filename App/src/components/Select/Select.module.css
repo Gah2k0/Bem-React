@@ -1,0 +1,51 @@
+.select {
+    font-size: .9rem;
+    padding: 15px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(122, 122, 122);
+    color: black;
+    margin-bottom: 30px;
+    /* margin-right: 20px; */
+    flex: 0 0 100%;
+}
+
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    z-index: 0;
+    cursor: text;
+    top: -7px;
+    left: 10px;
+    z-index: 10;
+    font-size: .7rem;
+    font-weight: 500;
+    color: #616161;
+}
+    
+.input-container {
+    position: relative;
+    width: 90%;
+    /* margin-bottom: 17px; */
+    display: flex;
+}
+
+.select-erro {
+    outline: red;
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+
+.erro {
+    position: absolute;
+    display: block;
+    color: red;
+    font-size: 12px;
+    margin-left: 5px;
+    top: 50px;
+  }

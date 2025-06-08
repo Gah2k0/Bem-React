@@ -1,0 +1,58 @@
+.corpo {
+    background: white;
+    padding: 80px;
+    font-size: 1.1rem;
+}
+
+.linha {
+    background: white;
+}
+
+.proposta {
+    padding: 20px 10px;
+}
+
+.aprovado {
+    padding: 5px 20px;
+    background-color: #69af1a;
+    text-align: center;
+    width: 35%;
+    border-radius: 20px;
+    color: white
+}
+
+.reprovado {
+    padding: 5px 20px;
+    background-color: red;
+    text-align: center;
+    width: 35%;
+    border-radius: 20px;
+    color: white
+}
+
+.analise {
+    padding: 5px 20px;
+    background-color: #d2be25;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    color: white
+}
+
+.manual {
+    padding: 5px 20px;
+    background-color: #3349ac;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    color: white
+}
+
+.pendente {
+    padding: 5px 20px;
+    background-color: #727270;
+    text-align: center;
+    width: 70%;
+    border-radius: 20px;
+    color: white
+}

@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(../../../public/assets/font/Inter/static/Inter-Regular.ttf);
+}
+
+* {
+    font-family: 'Inter';
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    background: #fafafa;
+    height: 100vh;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.principal {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+
+.principal .opcoes {
+    width: 80vw;
+    display: flex;
+    gap: 20px;
+
+}
+
+.principal .opcoes button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    border: rgb(207, 206, 206) solid 1px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Inter';
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.principal .opcoes button i {
+    color: darkorange;
+}
+
+.principal .opcoes button img {
+    height: 48px;
+    width: 44px;
+}
+
+.principal .opcoes button small {
+    color: black;
+    display: flex;
+}

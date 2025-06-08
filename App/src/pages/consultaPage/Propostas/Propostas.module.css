@@ -1,0 +1,15 @@
+.tabela {
+    border-collapse: collapse;
+    text-align: left;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 20px;
+    font-size: .8rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 2px 0px;
+}
+
+.cabecalho {
+    padding: 20px 10px;
+    color: rgb(122, 122, 122);
+    font-weight: 500;
+}

@@ -1,0 +1,149 @@
+
+.body {
+  background-color: white;
+}
+
+.principal {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+}
+
+.breadCrumb {
+  margin-top: 29px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.breadCrumb:hover {
+  cursor: pointer;
+}
+
+.bread-texto {
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+}
+
+.bread-seta {
+  width: 6.67px;
+}
+
+.titulo {
+  margin: 20px 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.cliente {
+display: flex;
+flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.aviso {
+  display: none;
+  font-size: 10px;
+  color: red;
+  padding-bottom: 20px;
+}
+
+.validacao {
+  display: block;
+}
+
+.menor {
+  width: 80%;
+  flex-grow: 1 0;
+}
+
+.sub-titulo {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  font-weight: 500;
+  color: rgb(122, 122, 122);
+}
+
+.select {
+font-size: .9rem;
+padding: 15px 15px;
+border-radius: 5px;
+border: 1px solid rgb(122, 122, 122);
+color: black;
+margin-bottom: 30px;
+/* margin-right: 20px; */
+flex: 0 0 100%;
+}
+
+.botoes {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.botao {
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  background-color: #E15100;
+  border: 1px solid #E15100;
+  cursor: pointer;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 10px;
+}
+
+.salvar {
+  width: 20px;
+}
+
+.botao-reset {
+  background-color: white;
+  border: 1px solid #BDBDBD;
+  color: #E15100;
+}
+
+.apagar {
+  width: 18.49px;
+}
+
+
+.label {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 0 4px;
+  background-color: white;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 0;
+  cursor: text;
+  top: -7px;
+  left: 10px;
+  z-index: 10;
+  font-size: .7rem;
+  font-weight: 500;
+  color: #616161;
+}
+
+.input-container {
+  position: relative;
+  width: 90%;
+  /* margin-bottom: 17px; */
+  display: flex;
+}
+

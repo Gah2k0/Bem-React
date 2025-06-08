@@ -1,0 +1,141 @@
+
+.consulta {
+    width: 100vw;
+    background-color: #ffffff;
+    height: 40vh;
+    border-bottom: 1px solid rgb(236, 235, 235);
+
+}
+
+.forms {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    height: 15vh;
+    width: 80%;
+}
+
+.breadCrumb {
+  margin-top: 29px;
+  width: fit-content;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.breadCrumb:hover {
+  cursor: pointer;
+}
+
+.bread-texto {
+  color: rgb(122, 122, 122);
+  font-weight: 400;
+}
+
+.bread-seta {
+  width: 6.67px;
+}
+
+.titulo {
+  margin: 30px 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.input-container {
+    position: relative;
+    width: 90%;
+    margin-bottom: 17px;
+  }
+
+.input {
+  font-size: .8rem;
+  padding: 15px 10px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid rgb(122, 122, 122);
+  color: black;
+}
+
+.input-container .input:focus, .input:hover {
+    border: 1px solid rgb(122, 122, 122);
+    outline: 1px solid rgb(122, 122, 122);
+}
+
+.input::placeholder {
+    color: transparent;
+  }
+  
+
+.label {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    padding: 0 4px;
+    background-color: white;
+    color: rgb(122, 122, 122);
+    font-size: .8rem;
+    transition: 0.5s;
+    z-index: 0;
+    cursor: text;
+  }
+
+  
+.input:focus + .label, .input:hover + .label, .label:hover {
+    top: -7px;
+    left: 10px;
+    z-index: 10;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(122, 122, 122);
+  }
+
+  .label-input-preenchido {
+    top: -7px;
+    left: 10px;
+    z-index: 10;
+    font-size: .8rem;
+    font-weight: 600;
+    color: rgb(122, 122, 122);
+  }
+
+#nome {
+  width: 80%;
+}
+  
+.submit-consulta {
+  font-size: .8rem;
+  color: #FFFFFF;
+  background-color: hsl(22deg 100% 44%);
+  border: 1px solid hsl(22deg 100% 44%);
+  cursor: pointer;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-bottom: 32px;
+  display: flex;
+  gap: 20px;
+}
+
+.submit-consulta i {
+  width: 10px;
+}
+
+.subtitulo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 1.5rem;
+  margin-left: 10%;
+  font-weight: 500;
+}

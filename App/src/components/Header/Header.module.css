@@ -1,0 +1,25 @@
+.cabecalho {
+    height: 70px;
+    width: 100vw;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid rgb(236, 235, 235);
+}
+
+.cabecalho .nav-bar {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cabecalho .nav-bar .logo {
+    width: 213.24px;
+    cursor: pointer;
+}
+
+.cabecalho .nav-bar .logout{
+    width: 19.81px;
+    cursor: pointer;
+}
